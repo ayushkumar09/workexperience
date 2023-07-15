@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Fira+Sans&family=Fira+Sans+Condensed&family=Fira+Sans+Extra+Condensed:wght@500&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *
+    {
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+    }
+    nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(18, 18, 62);
+    }
+    
+    main hr{
+      border: 0;
+      background: #9c97f1;
+      height: 1.2px;
+      margin: 60px 84px;
+      
+    }
+    .left{
+      font-size: 1.5rem;
+    }
+    
+    }
+    .secondsection{
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+    .secondsection h1{
+     font-size: 1.9rem;
+    }
+    .secondsection .box{
+      background: white;
+      width: 80vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+    .secondsection .vertical{
+      height: 93px;
+      width: 1px;
+      background-color: white;
+      margin: 0 6vw;
+      
+    }
+    .image-top{
+      width: 23px;
+      position: relative;
+      top: -32px;
+      left: -9px;
+    }
+    .vertical-title{
+      position: relative;
+      top: 75px;
+      width: 150px;
+      font-size: 14px;
+      
+    }
+    .vertical-desc{
+      position: relative;
+      top: 86px;
+      color: gray;
+      width: 150px;
+      font-size: 9px;
+    }
+    
+   
+    @media screen and (max-width: 1400px) {
+      .box{
+        flex-direction: column;
+      }
+      .secondsection .vertical{
+        height: unset;
+      }
+      .vertical-title, .vertical-desc{
+        left: 45px;
+      }
+      .secondsection .box{
+        width: 50vw;
+      }
+     
+      .secondsection{
+        height: 141vh;
+      }
+
+      .image-top{
+        top: 133px;
+      }
+      .secondsection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+  
+    
+    
+  </style>
+  </head>
+
+<body>
+  <header>
+    <nav>
+      <div id="particles-js"></div>
+      <div class="left">ayushkumar@social </div>
+    </nav>
+  </header>
+  <main>
+    <hr>
+    <section class="secondsection">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Work Experience</h1>
+
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="images/img1.png" alt="">
+        <div class="vertical-title">
+          Intern At IIT Mandi,H.P
+        </div>
+        <div class="vertical-desc">
+           Python development in ML & AI . This internship with help me to get deep knowledge on the "Python Programming" subject. It’s designed to be used in a range of applications, including data science, software and web development, automation, and generally getting stuff done.
+          </div>
+        </div>
+         <div class="vertical">
+          <img class="image-top" src="images/img2.png" alt="">
+        <div class="vertical-title">
+          Google Developer Student Club
+        </div>
+        <div class="vertical-desc">
+           Fundamental knowledge of software development concepts . Together, we learn the latest in Machine Learning, Android App Development, Google Cloud Platform, Flutter, and so much more. We grow our knowledge in a peer-to-peer learning environment and put theory to practice by building solutions for local businesses and their community.
+          </div>
+        </div> <div class="vertical">
+          <img class="image-top" src="images/img3.png" alt="">
+        <div class="vertical-title">
+          Intern At Coding Ninja
+        </div>
+        <div class="vertical-desc">
+            We oversee and manage the execution of different marketing strategies for a company. I use my skill set to promote products and services by implementing product-specific marketing campaigns. 
+          </div>
+        </div> <div class="vertical">
+          <img class="image-top" src="images/image4.png" alt="">
+        <div class="vertical-title">
+          Social summer of code
+        </div>
+        <div class="vertical-desc">
+           I contribute with my skills and expertise to different projects and learn from the diverse perspectives of my fellow contributors. This experience will not only help me grow as a professional but also enable me to make a positive impact in the community.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="images/image5.png" alt="">
+        <div class="vertical-title">
+          Intern at lets grow more
+        </div>
+        <div class="vertical-desc">
+           I had the opportunity to work on three exciting projects and expand my knowledge in the field of web development . 
+          </div>
+        </div>
+         <div class="vertical">
+          <img class="image-top" src="images/img6.png" alt="">
+        <div class="vertical-title">
+          Volunteer in Wittyhacks 3.0
+        </div>
+        <div class="vertical-desc">
+           It's been an incredible experience to manage or promoting the event of the biggest community hackathons under entire datacode team.
+          </div>
+        </div>
+        
+      </div>
+ </section>
+</main>
+  
+<script src="app.js">
+</script>
+<script src="particles.js">
+</script>
+  
+      
+</body>
+
+</html>
